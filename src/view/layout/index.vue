@@ -52,6 +52,13 @@
                 <span>放大镜</span>
               </template>
             </el-menu-item>
+
+            <el-menu-item index="/shopcart">
+              <template slot="title">
+                <i class="el-icon-shopping-cart-full"></i>
+                <span>购物车</span>
+              </template>
+            </el-menu-item>
           </el-submenu>
         </el-menu>
       </el-aside>

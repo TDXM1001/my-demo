@@ -34,9 +34,20 @@ const routes = [
         meta: {
           title: "商品放大组件"
         }
+      },
+      {
+        path: 'shopcart',
+        component: () => import("@/view/shopcart"),
+        meta: {
+          title: "购物车组件",
+          name: "shop"
+        }
       }
-    ]
-  }
+    ],
+
+  },
+
+
 ]
 
 
